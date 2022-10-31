@@ -1,0 +1,36 @@
+/**
+* @Developer : Sagar_Pokale
+* 28-Oct-2022 3:09:29 PM
+**/
+
+package _01_General;
+
+public class Print_1_To_10_Recursion {
+
+	public static void main(String[] args) {
+
+		System.out.println("Printing 1  to 10 : ");
+		int status = print(10);
+		if(status == 1) {
+		System.out.println("Success");
+		}
+	}
+
+//	public static int print(int num) {
+//		if (num == 0) {
+//			return 1;
+//		}
+//		System.out.println("Num = "+num);
+//		return print(num - 1);
+//	}
+	
+	public static int print(int num) {
+		if (num == 0) {
+			return print(num + 1);
+		}
+		return print(num - 1);
+	}
+	public static void printnum(int num) {
+		System.out.println("Number = "+num);
+	}
+}

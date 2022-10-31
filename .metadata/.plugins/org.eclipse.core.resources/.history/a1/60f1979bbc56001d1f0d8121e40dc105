@@ -1,0 +1,14 @@
+/**
+* @Developer : Sagar_Pokale
+* 28-Oct-2022 6:02:27 PM
+**/
+
+package _01_Sorting;
+public class Insertion_Sort {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

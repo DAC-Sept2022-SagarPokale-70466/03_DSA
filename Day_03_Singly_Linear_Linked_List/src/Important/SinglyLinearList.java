@@ -6,6 +6,9 @@
 package Important;
 
 public class SinglyLinearList {
+	
+//	=====================================================
+	
 	static class Node {
 		private int data;
 		private Node next;
@@ -44,7 +47,7 @@ public class SinglyLinearList {
 
 		}
 		while (newHead != null) {
-			System.out.print(newHead.data);
+			System.out.print(newHead.data+" ");
 			newHead = newHead.next;
 		}
 	}

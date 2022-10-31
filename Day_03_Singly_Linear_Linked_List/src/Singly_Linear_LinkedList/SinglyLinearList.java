@@ -87,7 +87,7 @@ public class SinglyLinearList {
 		else {
 			Node trav = head;
 			for (int i = 1; i < pos - 1; i++) {
-				if(trav.next == null)
+				if(trav.next == null)// To Break the loop when the position is higher than the LinkedLIst size
 					break;
 				trav = trav.next;
 			}

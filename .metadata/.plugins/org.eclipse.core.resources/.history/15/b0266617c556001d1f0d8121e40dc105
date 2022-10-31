@@ -1,0 +1,26 @@
+/**
+* @Developer : Sagar_Pokale
+* 28-Oct-2022 6:40:02 PM
+**/
+
+package _02_Queue;
+public class LinearQueue {
+	private int front;
+	private int rear;
+	private int[] arr;
+	private final int SIZE;
+	
+	public LinearQueue(int size) {
+		SIZE = size;
+		arr = new int[SIZE];
+		front = -1;
+		rear = -1;
+	}
+	
+	public void push(int value) {
+		rear++;
+		arr[rear] = value;
+	}
+	
+	
+}

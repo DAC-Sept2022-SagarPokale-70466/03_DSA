@@ -18,14 +18,14 @@ public class Singly_Linear_LinkedList {
 //		list.addNode(33);
 		list.addNode(44);
 		list.addFirst(101);
-		list.addPos(33, -1);
 		list.addNode(55);
+		list.addPos(33, 11);
 		
 		list.display();
 		
 //		list.deleteLast();
 		
-		list.deletePos(5);
+//		list.deletePos(5);
 		
 		System.out.println("\nNew LIst");
 		

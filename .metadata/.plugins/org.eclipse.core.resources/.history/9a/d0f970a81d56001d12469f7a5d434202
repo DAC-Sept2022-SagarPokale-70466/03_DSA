@@ -1,0 +1,20 @@
+/**
+* @Developer : Sagar_Pokale
+* 27-Oct-2022 10:53:41 PM
+**/
+package _01_General;
+
+public class Reverse_Array {
+	// input space => S proportional to n => O(n)
+	// aux space => S proportional to n => O(n)
+	// Stack (S proportional to n), i variable (S is const)
+	// time complexity: O(n)
+	public static void reverseArray(int[] arr) {
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}
