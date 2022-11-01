@@ -14,4 +14,11 @@
     <fullyQualifiedTypeName name="Singly_Linear_LinkedList.SinglyLinearList"/>
     <fullyQualifiedTypeName name="Singly_Linear_LinkedList.SinglyLinearList.Node"/>
     <fullyQualifiedTypeName name="Important.SinglyLinearList"/>
+    <fullyQualifiedTypeName name="Singly_Circular_Linked_List.SinglyCircularLinkedList"/>
+    <fullyQualifiedTypeName name="Singly_Circular_Linked_List.SinglyCircularLinkedList.Node"/>
+    <fullyQualifiedTypeName name="Doubly_Linear_Linked_List.DoublyLinearLinkedList"/>
+    <fullyQualifiedTypeName name="Doubly_Linear_Linked_List.DoublyLinearLinkedList.Node"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.traversal.DocumentTraversal"/>
+    <fullyQualifiedTypeName name="Doubly_Circular_Linked_List.DoublyCircularLinkedList"/>
+    <fullyQualifiedTypeName name="Doubly_Circular_Linked_List.DoublyCircularLinkedList.Node"/>
 </qualifiedTypeNameHistroy>
