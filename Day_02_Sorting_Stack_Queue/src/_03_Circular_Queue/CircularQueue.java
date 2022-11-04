@@ -40,6 +40,7 @@ public class CircularQueue {
 
 	public boolean isFull() {
 		return (front == -1 && rear == SIZE - 1) || (rear == front && rear != -1);
+				// When no one element is deleted      // when one or more deleted 
 	}
 
 	public boolean isEmpty() {

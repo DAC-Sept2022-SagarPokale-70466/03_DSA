@@ -30,11 +30,13 @@ public class LinearQueue {
 	}
 
 	public int peek() {
-		return arr[front+1];
+		return arr[front + 1];
 	}
+
 	public boolean isFull() {
 		return (rear == SIZE - 1);
 	}
+
 	public boolean isEmpty() {
 		return (rear == front);
 	}

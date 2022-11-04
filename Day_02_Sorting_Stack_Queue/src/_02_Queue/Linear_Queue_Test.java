@@ -47,6 +47,7 @@ public class Linear_Queue_Test {
 			default:
 				break;
 			}
+			sc.close();
 		}while(choice != 0);
 			
 		

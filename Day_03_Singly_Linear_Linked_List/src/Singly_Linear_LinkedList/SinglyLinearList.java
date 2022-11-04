@@ -5,8 +5,6 @@
 
 package Singly_Linear_LinkedList;
 
-import Singly_Linear_LinkedList.SinglyLinearList.Node;
-
 public class SinglyLinearList {
 //	======================================================
 
