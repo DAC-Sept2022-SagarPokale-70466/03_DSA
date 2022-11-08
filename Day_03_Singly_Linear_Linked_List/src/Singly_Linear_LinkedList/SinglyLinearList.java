@@ -6,6 +6,7 @@
 package Singly_Linear_LinkedList;
 
 public class SinglyLinearList {
+	
 //	======================================================
 
 	static class Node {

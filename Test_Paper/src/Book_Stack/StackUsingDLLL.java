@@ -3,7 +3,7 @@
 * 03-Nov-2022 10:59:16 PM
 **/
 
-package Book;
+package Book_Stack;
 
 @SuppressWarnings("unused")
 public class StackUsingDLLL {

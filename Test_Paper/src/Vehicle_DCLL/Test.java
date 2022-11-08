@@ -9,10 +9,11 @@ import java.util.Scanner;
 
 public class Test {
 
-	public static void main(String[] args){ 
+	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
 		LinkedList l1 = new LinkedList();
+		Vehicle v;
 		int choice;
 		do {
 			System.out.println("---------------------------------------------------------");
@@ -24,7 +25,7 @@ public class Test {
 			case 0:
 				break;
 			case 1:
-				Vehicle v = addVehicle(sc);
+				v = addVehicle(sc);
 				l1.addNodeAtLastPosition(v);
 				break;
 
@@ -35,23 +36,23 @@ public class Test {
 
 			case 3:
 				try {
-				l1.deleteNodeAtLastPosition();
-				System.out.println("Last postition Vehical deleted successfully");
-				}catch(ListEmptyException e) {
+					l1.deleteNodeAtLastPosition();
+					System.out.println("Last postition Vehical deleted successfully");
+				} catch (ListEmptyException e) {
 					System.out.println(e.getMsg());
 				}
 				break;
 			case 4:
 				try {
-				l1.deleteNodeAtFirstPosition();
-				System.out.println("First postition Vehical deleted successfully");
+					l1.deleteNodeAtFirstPosition();
+					System.out.println("First postition Vehical deleted successfully");
 				} catch (ListEmptyException e) {
 					System.out.println(e.getMsg());
 				}
 				break;
 
 			case 5:
-				
+
 				System.out.println("Enter no.");
 				int number = sc.nextInt();
 				l1.searchByNo(number);
@@ -81,22 +82,25 @@ public class Test {
 	}
 
 	private static Vehicle addVehicle(Scanner sc) {
-//		System.out.println("Enter Details");
-//		System.out.println("Company: ");
-//		String company = sc.next();
-//		System.out.println("Model: ");
-//		String model = sc.next();
-//		System.out.println("Type: ");
-//		String type = sc.next();
-//		System.out.println("Price: ");
-//		double price = sc.nextDouble();
-//		System.out.println("No: ");
-//		int no = sc.nextInt();
-//		System.out.println("Color: ");
-//		String color = sc.next();		
-//        return new Vehicle(company, model, type, price, no, color);
+		System.out.println("Enter Details");
+		System.out.println("Company: ");
+		String company = sc.next();
+		System.out.println("Model: ");
+		String model = sc.next();
+		System.out.println("Type: ");
+		String type = sc.next();
+		System.out.println("Price: ");
+		double price = sc.nextDouble();
+		System.out.println("No: ");
+		int no = sc.nextInt();
+		System.out.println("Color: ");
+		String color = sc.next();		
 		System.out.println("Success");
-		return new Vehicle("TATA", "XUV 700", "SUV", 999, 101, "Red");
+        return new Vehicle(company, model, type, price, no, color);
+//		return new Vehicle("TATA", "XUV 700", "SUV", 999, 101, "Red");
 	}
+	
+	
+//	 TATA XUV 700 SUV 999 101 Red
 
 }
