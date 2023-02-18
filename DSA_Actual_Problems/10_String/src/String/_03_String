@@ -1,0 +1,14 @@
+Java : UTF-16
+
+In java for string we have 3 Class String, StringBuffer, StringBuilder
+
+There are more advantage over array and arraylist. : More Function regarding string
+
+String Class : Immutable : Cannot change : Automatically thread safe  
+
+
+StringBuffer Object is thread safe class : We can use it when at multi-threaded enviroment  & when object is shared across multiple thread
+
+StringBuilder : Used within Single thread :
+			When :  Single threaded program which required mutable stirng is used
+
